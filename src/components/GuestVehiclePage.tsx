@@ -1,5 +1,5 @@
 import React from 'react';
-import { Truck, Star, Shield, Clock, Users, ArrowRight, CheckCircle, Wrench, Award, TrendingUp, Package } from 'lucide-react';
+import { Truck, Star, Shield, Clock, Users, ArrowRight, CheckCircle, Wrench, Award, TrendingUp, Package, Droplets, ArrowUp } from 'lucide-react';
 
 interface GuestVehiclePageProps {
   onSignUp: () => void;

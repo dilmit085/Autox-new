@@ -61,7 +61,12 @@ export const GuestMaterialPage: React.FC<GuestMaterialPageProps> = ({ onSignUp }
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">🏖️ Premium Sand</h3>
+                <div className="flex items-center mb-2">
+                  <div className="bg-yellow-100 w-8 h-8 rounded-lg flex items-center justify-center mr-2">
+                    <Package className="w-4 h-4 text-yellow-600" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900">Premium Sand</h3>
+                </div>
                 <p className="text-gray-600 mb-4">High-quality river sand, sea sand, and construction sand from verified suppliers.</p>
                 <div className="bg-yellow-50 rounded-lg p-3">
                   <div className="text-sm text-gray-600">Starting from</div>
@@ -77,7 +82,12 @@ export const GuestMaterialPage: React.FC<GuestMaterialPageProps> = ({ onSignUp }
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">🌱 Quality Soil</h3>
+                <div className="flex items-center mb-2">
+                  <div className="bg-green-100 w-8 h-8 rounded-lg flex items-center justify-center mr-2">
+                    <Truck className="w-4 h-4 text-green-600" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900">Quality Soil</h3>
+                </div>
                 <p className="text-gray-600 mb-4">Garden soil, topsoil, and fill dirt for all your landscaping needs.</p>
                 <div className="bg-green-50 rounded-lg p-3">
                   <div className="text-sm text-gray-600">Starting from</div>
@@ -93,7 +103,12 @@ export const GuestMaterialPage: React.FC<GuestMaterialPageProps> = ({ onSignUp }
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">🧱 Durable Bricks</h3>
+                <div className="flex items-center mb-2">
+                  <div className="bg-red-100 w-8 h-8 rounded-lg flex items-center justify-center mr-2">
+                    <Package className="w-4 h-4 text-red-600" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900">Durable Bricks</h3>
+                </div>
                 <p className="text-gray-600 mb-4">Clay bricks, concrete blocks, and pavers for strong construction.</p>
                 <div className="bg-red-50 rounded-lg p-3">
                   <div className="text-sm text-gray-600">Starting from</div>

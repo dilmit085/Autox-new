@@ -105,7 +105,7 @@ export const InteractiveMap: React.FC = () => {
                     fill="white"
                     className="pointer-events-none font-bold"
                   >
-                    📍
+                    •
                   </text>
                   
                   {/* Location label */}

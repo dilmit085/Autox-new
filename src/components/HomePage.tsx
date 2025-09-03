@@ -1,4 +1,5 @@
 import React from 'react';
+import { Star, Truck, Package, Search, Users, Shield, Clock, Award } from 'lucide-react';
 
 interface HomePageProps {
   onLogin: () => void;
