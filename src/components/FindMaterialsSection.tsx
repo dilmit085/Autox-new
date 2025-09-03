@@ -194,7 +194,7 @@ export const FindMaterialsSection: React.FC<FindMaterialsSectionProps> = ({ onBa
 
             <div className="text-center text-black">
               <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-                {categoryInfo?.icon} {categoryInfo?.name} Suppliers
+                {categoryInfo?.name} Suppliers
               </h1>
               <p className="text-xl max-w-3xl mx-auto mb-8">
                 Browse {categoryInfo?.name.toLowerCase()} suppliers across Sri Lanka. Connect directly with verified suppliers.

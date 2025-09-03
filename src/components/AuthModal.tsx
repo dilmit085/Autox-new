@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User } from '../types';
+import { Eye, EyeOff, X } from 'lucide-react';
 
 interface AuthModalProps {
   isOpen: boolean;

@@ -196,7 +196,7 @@ export const PartnerRegistration: React.FC<PartnerRegistrationProps> = ({ isOpen
                       : 'bg-gray-200 text-gray-500'
                   }`}
                 >
-                  {step < currentStep ? <CheckCircle size={16} /> : step}
+                  {step <= currentStep ? <CheckCircle size={16} /> : step}
                 </div>
               ))}
             </div>

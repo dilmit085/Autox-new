@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowLeft, Filter, Star, MapPin, Phone, MessageCircle, User, Award, Truck, Eye } from 'lucide-react';
+import { ArrowLeft, Filter, Star, MapPin, Phone, MessageCircle, User, Award, Truck, Eye, Droplets } from 'lucide-react';
 import { vehicles, vehicleCategories, sriLankanDistricts } from '../data/services';
 import { Vehicle } from '../types';
 

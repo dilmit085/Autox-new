@@ -1,5 +1,5 @@
 import React from 'react';
-import { Package, Star, Shield, Clock, Users, ArrowRight, CheckCircle, Award, TrendingUp } from 'lucide-react';
+import { Package, Star, Shield, Clock, Users, ArrowRight, CheckCircle, Award, TrendingUp, Truck, Wrench, Home } from 'lucide-react';
 
 interface MaterialsPageProps {
   onSignUp: () => void;

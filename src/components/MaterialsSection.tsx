@@ -376,6 +376,11 @@ export const MaterialsSection: React.FC<MaterialsSectionProps> = ({ onBack, onRe
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
                   <div className="absolute top-4 left-4 text-3xl">{category.icon}</div>
+                  <div className="absolute top-4 left-4">
+                    <div className="bg-white/90 backdrop-blur-sm w-10 h-10 rounded-lg flex items-center justify-center">
+                      <Package className="w-5 h-5 text-gray-700" />
+                    </div>
+                  </div>
                   <div className="absolute bottom-4 left-4 right-4">
                     <div className="bg-white/90 backdrop-blur-sm rounded-lg p-3">
                       <h3 className="text-lg font-bold text-gray-900">{category.name}</h3>

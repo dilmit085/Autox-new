@@ -16,35 +16,35 @@ export const materialCategories = [
     name: 'Sand',
     description: 'River sand, sea sand, and construction sand',
     image: 'https://images.pexels.com/photos/1029604/pexels-photo-1029604.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🏖️'
+    icon: 'S'
   },
   {
     id: 'soil',
     name: 'Soil',
     description: 'Garden soil, topsoil, and fill dirt',
     image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🌱'
+    icon: 'S'
   },
   {
     id: 'gravel',
     name: 'Gravel',
     description: 'Crushed stone, pea gravel, and aggregate',
     image: 'https://images.pexels.com/photos/1029641/pexels-photo-1029641.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🪨'
+    icon: 'G'
   },
   {
     id: 'metal',
     name: 'Metal',
     description: 'Steel rods, iron bars, and metal sheets',
     image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🔩'
+    icon: 'M'
   },
   {
     id: 'bricks',
     name: 'Bricks',
     description: 'Clay bricks, concrete blocks, and pavers',
     image: 'https://images.pexels.com/photos/1004584/pexels-photo-1004584.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🧱'
+    icon: 'B'
   }
 ];
 
@@ -55,70 +55,70 @@ export const vehicleCategories = [
     name: 'JCB',
     description: 'Backhoe loaders for excavation and loading',
     image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🚜'
+    icon: 'J'
   },
   {
     id: 'excavator',
     name: 'Excavator',
     description: 'Heavy excavators for digging and demolition',
     image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '⛏️'
+    icon: 'E'
   },
   {
     id: 'tipper',
     name: 'Tipper',
     description: 'Dump trucks for material transportation',
     image: 'https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🚛'
+    icon: 'T'
   },
   {
     id: 'lorry',
     name: 'Lorry',
     description: 'Transport trucks for cargo and materials',
     image: 'https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🚚'
+    icon: 'L'
   },
   {
     id: 'bowser',
     name: 'Bowser',
     description: 'Water tankers for site water supply',
     image: 'https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🚰'
+    icon: 'W'
   },
   {
     id: 'crane',
     name: 'Crane',
     description: 'Mobile cranes for heavy lifting',
     image: 'https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🏗️'
+    icon: 'C'
   },
   {
     id: 'concrete_mixer',
     name: 'Concrete Mixer',
     description: 'Concrete mixing trucks',
     image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🚛'
+    icon: 'M'
   },
   {
     id: 'road_roller',
     name: 'Road Roller',
     description: 'Compaction equipment for road construction',
     image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🛣️'
+    icon: 'R'
   },
   {
     id: 'bus',
     name: 'Bus',
     description: 'Passenger buses for transportation',
     image: 'https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🚌'
+    icon: 'B'
   },
   {
     id: 'boom_truck',
     name: 'Boom Truck',
     description: 'Aerial work platforms and boom lifts',
     image: 'https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&w=800',
-    icon: '🚁'
+    icon: 'A'
   }
 ];
 
