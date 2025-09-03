@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plus, Edit, Eye, Star, Bell, Settings, User, MapPin, Phone, Camera, Upload, Trash2, MessageSquare, BarChart3, LogOut } from 'lucide-react';
+import { Plus, Edit, Eye, Star, Bell, Settings, User, MapPin, Phone, Camera, Upload, Trash2, MessageSquare, BarChart3, LogOut, X, Truck, Package } from 'lucide-react';
 import { Partner, PartnerVehicle, PartnerMaterial, Notification } from '../types';
 
 interface EnhancedPartnerDashboardProps {

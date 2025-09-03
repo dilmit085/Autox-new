@@ -297,7 +297,7 @@ export const PartnerDashboard: React.FC<PartnerDashboardProps> = ({ partner, veh
                     </button>
                     <button 
                       onClick={() => {
-                        const message = `Hi ${notification.from.name}, thank you for your inquiry about ${notification.itemName}. I'd be happy to help you.`;
+                        const message = `Hi ${notification.from.name}, thank you for your inquiry about ${notification.itemName}. I would be happy to help you.`;
                         const whatsappUrl = `https://wa.me/${notification.from.phone.replace(/[^0-9]/g, '')}?text=${encodeURIComponent(message)}`;
                         window.open(whatsappUrl, '_blank');
                       }}

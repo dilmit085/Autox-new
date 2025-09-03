@@ -155,23 +155,3 @@ export const VehicleDetails: React.FC<VehicleDetailsProps> = ({ vehicle, onBack 
                 <p className="mb-6">Need this vehicle urgently? Contact the owner directly for immediate assistance.</p>
                 <div className="flex space-x-4">
                   <button
-                    onClick={() => handleCall(vehicle.supplier.phone)}
-                    className="flex-1 bg-black text-yellow-400 py-3 px-4 rounded-xl hover:bg-gray-800 transition-colors font-semibold"
-                  >
-                    Call to Book
-                  </button>
-                  <button
-                    onClick={() => handleSMS(vehicle.supplier.phone, vehicle.name, vehicle.supplier.name)}
-                    className="flex-1 bg-white text-black py-3 px-4 rounded-xl hover:bg-gray-100 transition-colors font-semibold"
-                  >
-                    SMS to Book
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-};

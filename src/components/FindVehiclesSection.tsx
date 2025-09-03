@@ -169,14 +169,16 @@ export const FindVehiclesSection: React.FC<FindVehiclesSectionProps> = ({ onBack
                   <div className="flex space-x-4">
                     <button
                       onClick={() => handleCall(selectedVehicle.supplier.phone)}
-                      className="flex-1 bg-white text-blue-600 py-3 px-4 rounded-xl hover:bg-gray-100 transition-colors font-semibold"
+                      className="flex-1 bg-white text-blue-600 py-3 px-4 rounded-xl hover:bg-gray-100 transition-colors font-semibold flex items-center justify-center"
                     >
+                      <Phone className="w-4 h-4 mr-2" />
                       Call to Book
                     </button>
                     <button
                       onClick={() => handleMessage(selectedVehicle.supplier.phone, selectedVehicle.supplier.name, selectedVehicle.name)}
-                      className="flex-1 bg-yellow-400 text-black py-3 px-4 rounded-xl hover:bg-yellow-500 transition-colors font-semibold"
+                      className="flex-1 bg-yellow-400 text-black py-3 px-4 rounded-xl hover:bg-yellow-500 transition-colors font-semibold flex items-center justify-center"
                     >
+                      <MessageCircle className="w-4 h-4 mr-2" />
                       Message to Book
                     </button>
                   </div>
@@ -207,7 +209,7 @@ export const FindVehiclesSection: React.FC<FindVehiclesSectionProps> = ({ onBack
 
             <div className="text-center text-white">
               <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-                {categoryInfo?.name} Rental
+                {categoryInfo?.icon} {categoryInfo?.name} Rental
               </h1>
               <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8">
                 Browse {categoryInfo?.name.toLowerCase()} owners across Sri Lanka. Connect directly with verified vehicle owners.

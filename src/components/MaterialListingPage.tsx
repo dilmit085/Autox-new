@@ -251,7 +251,7 @@ export const MaterialListingPage: React.FC<MaterialListingPageProps> = ({ onBack
             <div className="flex items-center justify-between mb-8">
               <h3 className="text-2xl font-bold text-gray-900 flex items-center">
                 <MessageSquare className="w-6 h-6 mr-3" />
-                💬 Customer Reviews & ⭐ Ratings
+                Customer Reviews & Ratings
               </h3>
               <div className="text-center">
                 <div className="text-3xl font-bold text-blue-600">{averageRating.toFixed(1)}</div>
@@ -401,9 +401,7 @@ export const MaterialListingPage: React.FC<MaterialListingPageProps> = ({ onBack
           <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6 mb-12">
             {materialCategories.map((category) => (
               <div key={category.id} className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 text-center">
-                <div className="bg-blue-200 w-10 h-10 rounded-xl flex items-center justify-center mx-auto mb-3">
-                  <Package className="w-5 h-5 text-blue-700" />
-                </div>
+                <div className="text-3xl mb-3">{category.icon}</div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">{category.name}</h3>
                 <p className="text-gray-600 text-xs">{category.description}</p>
               </div>

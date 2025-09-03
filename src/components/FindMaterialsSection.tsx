@@ -156,14 +156,16 @@ export const FindMaterialsSection: React.FC<FindMaterialsSectionProps> = ({ onBa
                   <div className="flex space-x-4">
                     <button
                       onClick={() => handleCall(selectedMaterial.supplier.phone)}
-                      className="flex-1 bg-black text-yellow-400 py-3 px-4 rounded-xl hover:bg-gray-800 transition-colors font-semibold"
+                      className="flex-1 bg-black text-yellow-400 py-3 px-4 rounded-xl hover:bg-gray-800 transition-colors font-semibold flex items-center justify-center"
                     >
+                      <Phone className="w-4 h-4 mr-2" />
                       Call to Order
                     </button>
                     <button
                       onClick={() => handleMessage(selectedMaterial.supplier.phone, selectedMaterial.supplier.name, selectedMaterial.name)}
-                      className="flex-1 bg-white text-black py-3 px-4 rounded-xl hover:bg-gray-100 transition-colors font-semibold"
+                      className="flex-1 bg-white text-black py-3 px-4 rounded-xl hover:bg-gray-100 transition-colors font-semibold flex items-center justify-center"
                     >
+                      <MessageCircle className="w-4 h-4 mr-2" />
                       Message to Order
                     </button>
                   </div>
@@ -194,7 +196,7 @@ export const FindMaterialsSection: React.FC<FindMaterialsSectionProps> = ({ onBa
 
             <div className="text-center text-black">
               <h1 className="text-5xl lg:text-6xl font-bold mb-6">
-                {categoryInfo?.name} Suppliers
+                {categoryInfo?.icon} {categoryInfo?.name} Suppliers
               </h1>
               <p className="text-xl max-w-3xl mx-auto mb-8">
                 Browse {categoryInfo?.name.toLowerCase()} suppliers across Sri Lanka. Connect directly with verified suppliers.
